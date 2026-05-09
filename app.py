@@ -19,3 +19,7 @@ multiply_result = multiply(5, 4)
 print("The result of multiplication is:", multiply_result)
 
 print("New feature in progress")
+def buggy_function():
+    return 1/0
+def correct_function():
+    return 'This works correctly'
